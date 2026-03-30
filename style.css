@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3636368a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+
+/* Container */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Title */
+.container h1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Canvas */
+canvas {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    visibility: hidden;
+    margin: 19px auto;
+
+}
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Score */
+#score,
+#high-score {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #019ca3;
+}
