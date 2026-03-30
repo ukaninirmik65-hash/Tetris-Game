@@ -13,6 +13,11 @@ body {
     height: 100vh;
     font-family: cursive;
     background-image: url('1287.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 /* Container */
