@@ -39,7 +39,8 @@ const Sound = {
     ClikSound: new Audio('sound/ClickSound.mp3'),
     PlayGameSound: new Audio('sound/PlayGameSound.mp3'),
     BlockRemoveSound: new Audio('sound/BlockRemoveSound.mp3'),
-    GameOverSound: new Audio('sound/GameOverSound.mp3')
+    GameOverSound: new Audio('sound/GameOverSound.mp3'),
+    playGameSound: new Audio('sound/PlayGameSound')
 }
 
 const SHAPES = [
@@ -98,7 +99,7 @@ const COLORS = [
 ];
 
 const BLOCK_BACKGROUND_COLOR = '#303030'
-const BlockColor = '#444'
+const BlockColor = '#44444493'
 const COLOR_GAME_OVER_OVERLAY = '#000000bb';
 
 const GRAVITY_SPEED = 1;
